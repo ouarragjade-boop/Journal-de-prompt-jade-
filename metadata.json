@@ -1,0 +1,5 @@
+{
+  "name": "Journal de prompts",
+  "description": "Saisir et dater ses prompts IA pour l'annexe du PPI ou du PPC (MSDI, IFC).",
+  "requestFramePermissions": []
+}
