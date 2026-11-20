@@ -82,7 +82,7 @@ function show(view) {
   document.querySelectorAll("nav button").forEach(b => {
     if (b.dataset.view === view) b.setAttribute("aria-current", "page"); else b.removeAttribute("aria-current");
   });
-  $("#title").textContent = { saisir: "Journal de prompt Jade", historique: "Historique", reglages: "Réglages" }[view];
+  $("#title").textContent = { saisir: "Prompt PPI", historique: "Historique", reglages: "Réglages" }[view];
   if (view === "historique") renderHist();
   window.scrollTo(0, 0);
 }
