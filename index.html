@@ -21,7 +21,7 @@
    Mise en page : en-tête rouge arrondi, choix en pastilles, carte blanche pour le prompt, navigation en pilules. */
 :root{
   --bg:#f6f4f0; --surface:#ffffff; --fg:#111111; --muted:#5f5b54; --line:#d8d4cc; --soft:#eeeae3;
-  --red:#ff66c4; --red-fg:#ffffff; --orange:#f39200; --yellow:#ffd500; --ink:#111111; --ink-fg:#ffffff;
+  --red:#ff66c4; --red-fg:#ffffff; --orange:#f39200; --yellow:#f8f49c; --ink:#111111; --ink-fg:#ffffff;
   --ok-bg:#e3f1e8; --ok-fg:#145c34; --err:#b3261e;
   --f-display:"Bricolage Grotesque","Arial Rounded MT Bold",system-ui,sans-serif;
   --f-body:"Source Sans 3","Segoe UI",system-ui,sans-serif;
@@ -41,7 +41,7 @@ button:focus-visible,select:focus,input:focus,textarea:focus,a:focus-visible{out
 header{background:var(--red);color:var(--red-fg);border-radius:0 0 24px 24px;
   padding:calc(env(safe-area-inset-top,0px) + 16px) 20px 18px;display:grid;gap:10px}
 .top{display:flex;align-items:center;justify-content:space-between;gap:12px}
-header h1{font:800 1.5rem/1.1 var(--f-display);letter-spacing:-.02em;margin:0}
+header h1{font:800 1.5rem/1.1 var(--f-display);letter-spacing:-.02em;margin:0;color:var(--yellow)}
 .ep{display:flex;background:rgba(255,255,255,.2);border-radius:999px;padding:3px}
 .ep button{border:0;background:transparent;color:#fff;font-weight:600;font-size:.85rem;padding:6px 12px;border-radius:999px;min-height:34px}
 .ep button[aria-pressed="true"]{background:var(--yellow);color:#111}
